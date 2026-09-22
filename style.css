@@ -673,6 +673,22 @@ footer {
   align-items: flex-start;
 }
 
+.edu-institution-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edu-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #f5f7fb;
+  border: 1px solid var(--border);
+  padding: 0.45rem;
+}
+
 .edu-row h3 {
   margin: 0.25rem 0 0;
   font-size: clamp(1.4rem, 2vw, 2rem);
